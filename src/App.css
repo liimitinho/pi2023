@@ -1,0 +1,28 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #13005A;
+}
+
+.cabecalho-nav{
+  flex-direction: row;
+  background-color: #00337C;
+}
+
+.cabecalho-menu{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item{
+  list-style: none;
+  flex: 1;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+}
