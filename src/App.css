@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+body{
+  background-color: #13005A;
+}
+
+.cabecalho-nav{
+  flex-direction: row;
+  background-color: #00337C;
+}
+
+.cabecalho-menu{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item{
+  list-style: none;
+  flex: 1;
+  padding: 30px;
+  align-self: flex-end;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: white;
+}
+
+.container-form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formulario{
+  display: flex;
+  background-color: #03C988;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  height: 100%;
+  align-self: center;
+}
+
+.text-input{
+  background-color: #00337C;
+  padding: 15px;
+  margin: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+.text-input::placeholder{
+  color: white;   
+}
+
+.botao-form{
+  background-color: #00337C;
+  padding: 15px;
+  margin: 10px;
+  color: white;  border-radius: 10px;
+}
+
+.botao-texto{
+  text-decoration: none;
+  color: white;
+}
