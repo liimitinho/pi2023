@@ -6,7 +6,7 @@ export default function RegisterForm() {
                 <input type="text" class="text-input" placeholder="Email" />
                 <input type="text" class="text-input" placeholder="Senha" />
                 <input type="text" class="text-input" placeholder="Confirmção de Senha" />
-                <input type="date" class="text-input" placeholder="Senha" />
+                <input type="date" class="text-input" placeholder="Data de Nascimento" />
 
                 <p>
                     Concordo com os Termos de Uso e Privacidade
@@ -14,12 +14,12 @@ export default function RegisterForm() {
                 </p>
 
                 <button class="botao-form">
-                    <a href="#" class="botao-texto">Entrar</a>
+                    <a href="#" class="botao-texto">Registrar</a>
                 </button>
                 <button class="botao-form">
                     <a href="#" class="botao-texto">Entrar com Google</a>
                 </button>
-                <p> Ainda não possui conta? <a href="#">Registrar</a> </p>
+                <p> Já possui uma conta? <a href="#">Entrar</a> </p>
             </form>
         </div>
     )
